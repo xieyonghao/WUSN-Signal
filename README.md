@@ -1,4 +1,4 @@
-# TVLT
+# Self-adjusting Parametric Model of WUSN Signal
 
 ### **[A Self-adjusting Parametric Model for Attenuation Characteristics of WUSN Signal](https://arxiv.org/abs/2209.14156) [NeurIPS 2022 [bib](https://github.com/zinengtang/TVLT#citation)]**  
 [Zineng Tang*](https://zinengtang.github.io/), [Jaemin Cho*](https://j-min.io/), [Yixin Nie*](https://easonnie.github.io/), [Mohit Bansal](https://www.cs.unc.edu/~mbansal/)   
