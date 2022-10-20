@@ -1,23 +1,32 @@
 # Self-adjusting Parametric Model of WUSN Signal
 
-### **[A Self-adjusting Parametric Model for Attenuation Characteristics of WUSN Signal](https://arxiv.org/abs/2209.14156) [NeurIPS 2022 [bib](https://github.com/zinengtang/TVLT#citation)]**  
-[Zineng Tang*](https://zinengtang.github.io/), [Jaemin Cho*](https://j-min.io/), [Yixin Nie*](https://easonnie.github.io/), [Mohit Bansal](https://www.cs.unc.edu/~mbansal/)   
+### **[A Self-adjusting Parametric Model for Attenuation Characteristics of WUSN Signal](https://arxiv.org/abs/2209.14156) [NeurIPS 2022 [bib](https://github.com/xieyonghao/WUSN Signal#citation)]**  
+[Jiwe Zhang], [Yonghao Xie](https://github.io/xieyonghao), [Mingze Yuan], [Mingbao Li*]   
 
-Learning **compact** visual-linguistic Transformer representation from low-level continuous visual 👁 and audio👂 perception signal **without assuming the prior existence of written texts or tokens**
+we proposed a **fusion optimization model**, and proposed an **improved Genetic Algorithm**, which is automatically adjust fusion parameter according to soil and distance factors, it made the prediction of signal attenuation under different soil components more accurately
 
 ## Introduction
 <!-- <p align="center">
-  <big><b>TVLT: Textless Vision-Language Transformer (NeurIPS 2022)</b></big>
+  <big><b>A Self-adjusting Parametric Model for Attenuation Characteristics of WUSN Signal (Canadian Journal of Soil Science 2022)</b></big>
 </p>
 
 
 <p align="center">
-  <big><b>Zineng Tang, Jaemin Cho, Yixin Nie, Mohit Bansal</b></big>
+  <big><b>Jiawei Zhang, Yonghao Xie, Mingze Yuan, Mingbao Li</b></big>
 </p> -->
 
-Transformers for Vision-Language (VL) representation learning heavily rely on text-based inputs. (Some works use audio channel only as auxiliary channel)  
+a low-power wireless underground sensor network nodes was designed.  
 
-TVLT takes audio and visual inputs for VL representation learning with **minimal modality-specific design** and **without text-specific modules such as tokenization and automatic speech recognition (ASR)**.  
+<p align="center">
+  <img align="middle" width="800" src="assets/architecture.png"/>
+</p>
+
+we analyzed the attenuation prediction values of the **modified Frisian transmission model** and the **complex refractive index Fresnel model** under different soil components, targeting their weaknesses and combining their strengths. The result is not good.
+
+<p align="center">
+  <img align="middle" width="800" src="assets/test_pre.png"/>
+</p>
+
 
 TVLT is pre-trained with vision-audio mathcing and mask autoencoding **(mask and then reconstruct the continuous input of video frames and audio spectrogram)**, following the previous idea of [training scalable vision learners with mask autoencoding on images (the Vision-BERT)](https://arxiv.org/abs/2111.06377).    
 
