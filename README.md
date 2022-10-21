@@ -27,11 +27,10 @@ we analyzed the attenuation prediction values of the **modified Frisian transmis
   <img align="middle" width="800" src="assets/test_pre.png"/>
 </p>
 
-
-TVLT is pre-trained with vision-audio mathcing and mask autoencoding **(mask and then reconstruct the continuous input of video frames and audio spectrogram)**, following the previous idea of [training scalable vision learners with mask autoencoding on images (the Vision-BERT)](https://arxiv.org/abs/2111.06377).    
+we proposed a fusion optimization model, and proposed an **improved Genetic Algorithm**, which is automatically adjust fusion parameter according to soil and distance factors, it made the prediction of signal attenuation under different soil components **more accurately**. The results shown that the proposed optimization model with automatic parameter is convenient to predict the signal attenuation, the optimization model **made the prediction error stay really low, and achieved the goal of reducing the prediction error**. [training scalable vision learners with mask autoencoding on images (the Vision-BERT)](https://arxiv.org/abs/2111.06377).    
 
 <p align="center">
-  <img align="middle" width="800" src="assets/architecture.png"/>
+  <img align="middle" width="800" src="assets/experient result.png"/><img align="middle" width="800" src="assets/experient result2.png"/>
 </p>
 
 
