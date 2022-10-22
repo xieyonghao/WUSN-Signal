@@ -34,7 +34,6 @@ we proposed a fusion optimization model, and proposed an **improved Genetic Algo
 </p>
 
 
-
 ## Citation
 ```
 @inproceedings{Zhang Canadian Journal of Soil Science
